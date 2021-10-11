@@ -5,7 +5,7 @@ class PizzaSize(Enum):
     # Enum members written as: name = value
     small = {'base_price': 120, 'topping': 20}
     medium = {'base_price': 200, 'topping': 25}
-    large = {'base_price': 280, 'topping': 30}
+    large = {'base_price': 300, 'topping': 30}
     jumbo = {'base_price': 400, 'topping': 35}
 
     def __str__(self):
